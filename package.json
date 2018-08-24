@@ -1,0 +1,22 @@
+{
+  "name": "electron-openvr-sample",
+  "version": "1.0.0",
+  "description": "Sample app for electron-openvr",
+  "main": "index.js",
+  "repository": "https://github.com/kayteh/electron-openvr-sample",
+  "author": "Katalina <git@kat.cafe>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "f": "electron-rebuild.cmd"
+  },
+  "dependencies": {
+    "electron": "^3.0.0-beta.7",
+    "electron-openvr": "file:../electron-openvr"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.2",
+    "standard": "^11.0.1"
+  }
+}
